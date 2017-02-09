@@ -1,0 +1,1053 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+img {
+    border: none;
+    vertical-align: top;
+}
+
+i, em {
+    font-style: normal;
+}
+
+b, strong {
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    outline: none;
+}
+
+.w980 {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+body {
+    background: #f5f5f5;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.min-top {
+    background: url("../images/topbar.png") repeat 0 -80px;
+    border-bottom: 1px solid #030303;
+}
+
+.nav {
+    /*height: 68px;*/
+    position: relative;
+}
+
+.min-top .nav h1 {
+    width: 175px;
+    height: 42px;
+    float: left;
+}
+
+.min-top .nav h1 a {
+    width: 162px;
+    height: 42px;
+    text-shadow: 0 1px 0 #1b1b1b;
+    background: url("../images/topbar.png") no-repeat 0 0;
+    position: absolute;
+    top: 13px;
+    left: 0;
+    text-indent: -9999px;
+
+}
+
+.min-top .nav ul {
+    float: left;
+}
+
+.min-top .nav ul li {
+    float: left;
+    height: 68px;
+    padding: 0 20px 0 19px;
+    position: relative;
+}
+
+.min-top .nav ul .list {
+    background: url("../images/topbar.png") no-repeat 0 -155px;
+}
+
+.min-top .nav ul li a {
+    /*display: block;*/
+    font-size: 14px;
+    color: #ccc;
+    line-height: 68px;
+    text-align: center;
+}
+
+.min-top .nav ul li i {
+    width: 2px;
+    height: 12px;
+    background: url("../images/topbar.png") no-repeat -238px -170px;
+    position: absolute;
+    right: 0;
+    top: 30px;
+
+}
+
+.min-top .nav ul .list i {
+    width: 2px;
+    height: 68px;
+    background: url("../images/topbar.png") no-repeat -238px -156px;
+    position: absolute;
+    top: 0;
+    left: 95px;
+}
+
+.min-top .nav ul .list {
+    position: relative;
+}
+
+.min-top .nav ul .list b {
+    width: 0;
+    height: 0;
+    border: 7px solid;
+    border-color: transparent transparent #c7250c;
+    position: absolute;
+    bottom: -2px;
+    left: 40px;
+}
+
+.min-top .nav ul .list4 a {
+    padding: 0 20px 0 0;
+}
+
+.min-top .nav ul sup {
+    display: block;
+    width: 26px;
+    height: 19px;
+    background: url("../images/topbar.png") no-repeat -191px 0;
+    position: absolute;
+    top: 21px;
+    left: 90px;
+}
+
+.min-top .nav ul li:hover i {
+    width: 2px;
+    height: 68px;
+    background-position: -238px -156px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.min-top .nav ul li:hover {
+    cursor: pointer;
+    background: url("../images/topbar.png") no-repeat 0 -155px;
+}
+
+.min-top .search {
+    float: left;
+    margin-right: 13px;
+}
+
+.min-top .search i {
+    display: block;
+    margin: 18px 0 0 144px;
+    width: 210px;
+    height: 31px;
+    background: url("../images/topbar.png") no-repeat 0 -549px;
+}
+
+.min-top .search i b {
+    display: block;
+    color: #999;
+    font-size: 12px;
+    padding: 10px 0 0 33px;
+}
+
+.min-top .login {
+    float: right;
+    height: 37px;
+    padding: 31px 22px 0 0;
+    position: relative;
+}
+
+.login .loginbar {
+    font-size: 12px;
+    float: right;
+    color: #787878;
+    position: relative;
+}
+
+.login .loginbar > i {
+    width: 12px;
+    height: 7px;
+    background: url("../images/topbar.png") no-repeat -228px -380px;
+    position: absolute;
+    left: 34px;
+    top: 4px;
+}
+
+.login .loginbar:hover {
+    text-decoration: underline;
+}
+
+.login .loginbar:hover i {
+    background-position: -228px -418px;
+}
+
+.min-top .login .logHid {
+    display: none;
+    background: #000;
+    width: 160px;
+    height: 194px;
+    position: absolute;
+    top: 56px;
+    left: -98px;
+}
+
+.min-top .login .logHid i {
+    width: 14px;
+    height: 9px;
+    background: url("../images/topbar.png") no-repeat -190px -24px;
+    position: absolute;
+    top: -7px;
+    left: 102px;
+    z-index: 2;
+}
+
+.min-top .login .logHid ol {
+    width: 156px;
+    height: 190px;
+    background: #2a2a2a;
+    border: 1px solid #404040;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    z-index: 3;
+
+}
+
+.login .logHid ol li {
+    width: 156px;
+    height: 38px;
+    line-height: 38px;
+    position: relative;
+}
+
+.login .logHid ol li a {
+    font-size: 12px;
+    color: #fff;
+    padding-left: 45px;
+
+}
+
+.login .logHid ol li a b {
+    width: 10px;
+    height: 14px;
+    background: url("../images/toplist.png") no-repeat -3px -2px;
+    position: absolute;
+    top: 13px;
+    left: 20px;
+}
+
+.min-top .login:hover .logHid {
+    display: block;
+}
+
+.login .logHid ol li:hover {
+    background: #353535;
+}
+
+.min-top-two {
+    height: 35px;
+    background: url("../images/topbar.png") repeat 0 -230px;
+    padding-top: 0;
+}
+
+.min-top-two li {
+    float: left;
+    line-height: 35px;
+    height: 20px;
+    margin: 7px 34px 0 0;
+    border: 1px solid transparent;
+
+}
+
+.min-top-two ul li a {
+    display: block;
+    line-height: 20px;
+    padding: 0 15px 0 14px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.min-top-two ul .list1 {
+    margin-left: 194px;
+    background: #8a0302;
+    border: 1px solid #d50f0f;
+    border-radius: 9px;
+}
+
+.min-top-two ul li:hover {
+    background: #8a0302;
+    border: 1px solid #d50f0f;
+    border-radius: 9px;
+}
+
+.banner {
+    background: #ddd9da;
+    height: 336px;
+}
+
+.banner .banner-min a img {
+    width: 730px;
+    height: 336px;
+}
+
+.banner .banner-min a {
+    float: left;
+}
+
+.banner-min {
+    position: relative;
+    width: 984px;
+}
+
+.banner ul li {
+    float: left;
+    width: 37px;
+    height: 63px;
+    position: absolute;
+    top: 138px;
+    left: -60px;
+}
+
+.banner ul li i {
+    width: 37px;
+    height: 63px;
+    background: url("../images/banner.png") no-repeat -1px -359px;
+    display: block;
+}
+
+.banner ul li:hover i {
+    background-position: -1px -429px;
+}
+
+.banner ul .right {
+    position: absolute;
+    top: 138px;
+    left: 1005px;
+}
+
+.banner ul .right i {
+    background-position: -1px -508px;
+
+}
+
+.banner ul .right:hover i {
+    background-position: -1px -578px;
+}
+
+.banner ol {
+    height: 6px;
+    width: 185px;
+    position: absolute;
+    left: 281px;
+    bottom: 13px;
+}
+
+.banner ol li {
+    width: 6px;
+    height: 6px;
+    float: left;
+    margin-right: 17px;
+}
+
+.banner ol li b {
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background: #f5f5f5;
+}
+
+.banner ol .red b {
+    background: #b90b0b;
+}
+
+.banner ol li:hover b {
+    background: #b90b0b;
+}
+
+.banner .banner-min .ban-min-rig {
+    float: right;
+    width: 254px;
+    height: 336px;
+    background: url("../images/download.png") no-repeat 0 0;
+}
+
+.banner .banner-min .ban-min-rig p {
+    display: block;
+    color: #8d8d8d;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 43px;
+    text-align: center;
+    margin-top: 270px;
+}
+
+.concent .con-lef {
+    width: 709px;
+    float: left;
+    padding: 0 0 40px 20px;
+    border-left: 1px solid #d3d3d3;
+    border-right: 1px solid #d3d3d3;
+    background: #fff;
+
+}
+
+.concent .con-lef .title {
+    width: 689px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 2px solid #c10d0c;
+    padding-top: 15px;
+}
+
+.concent .con-lef .title i {
+    float: left;
+    width: 14px;
+    height: 14px;
+    margin: 14px 10px 0;
+    background: url("../images/title.png") no-repeat 0 0;
+}
+
+.concent .con-lef .title h3 {
+    float: left;
+    margin-right: 7px;
+}
+
+.concent .con-lef .title h3 a {
+    display: block;
+    font-size: 20px;
+    line-height: 40px;
+    color: #333;
+}
+
+.concent .con-lef .title ul {
+    float: left;
+}
+
+.concent .con-lef .title ul li {
+    float: left;
+}
+
+.con-lef .title ul li a {
+    color: #666;
+    line-height: 40px;
+    padding: 0 13px 0 14px;
+}
+
+.con-lef .title ul li b {
+    color: #cecece;
+}
+
+.con-lef .title ul li:hover a {
+    text-decoration: underline;
+}
+
+.con-lef .title > a {
+    color: #666;
+    float: right;
+    padding-right: 12px;
+}
+
+.con-lef .title > a > span {
+    display: inline-block;
+    width: 8px;
+    height: 6px;
+    background: url("../images/title2.png");
+    margin-left: 7px;
+}
+
+.con-lef .title > a:hover {
+    text-decoration: underline;
+}
+
+.con-lef .con-lef-lis ul li {
+    width: 140px;
+    float: left;
+    margin: 20px 42px 0 0;
+}
+
+.con-lef-lis > ul li .lis-to img {
+    width: 140px;
+    height: 140px;
+}
+
+.con-lef-lis .lis-to {
+    position: relative;
+}
+
+.con-lef-lis .lis-to i {
+    width: 140px;
+    height: 140px;
+    background: url("../images/coverall.png") no-repeat 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.con-lef-lis {
+    margin-top: 20px;
+    width: 686px;
+
+}
+
+.con-lef-lis li {
+    float: left;
+    width: 140px;
+    padding-right: 42px;
+    position: relative;
+}
+
+.con-lef-lis .lis-bot {
+    width: 140px;
+    height: 25px;
+    background: rgba(0, 0, 0, .3);
+    border-bottom: 1px solid #3c3c30;
+    border-top: 1px solid #3c3c30;
+    position: absolute;
+    top: 113px;
+    left: 0;
+}
+.con-lef-lis .list4{
+    padding-right: 0;
+}
+.con-lef-lis .lis-bot > i {
+    display: inline-block;
+    width: 14px;
+    height: 11px;
+    background: url("../images/iconall.png") no-repeat 0 -24px;
+    margin: 7px 5px 0 10px;
+}
+
+.con-lef-lis .lis-bot > span {
+    color: #c9c9c9;
+}
+
+.con-lef-lis .lis-bot b {
+    width: 17px;
+    height: 17px;
+    background: url("../images/iconall.png") no-repeat 0 0;
+    position: absolute;
+    top: 4px;
+    right: 10px;
+}
+
+.con-lef-lis .lis-bot a:hover b {
+    background-position: 0 -60px;
+}
+
+.con-lef-lis .lis-text {
+    display: block;
+    font-size: 14px;
+    color: #000;
+    margin-top: 7px;
+    line-height: 19px;
+}
+.con-lef-lis .lis-text:hover{
+    text-decoration: underline;
+}
+.con-lef .con-lef-lis2{
+    margin-top: 48px;
+}
+.con-lef .con-le-bane{
+    width: 689px;
+    height: 79px;
+    display: block;
+    margin: 10px 0 32px;
+    position: relative;
+}
+.con-lef .con-le-bane i{
+    width: 24px;
+    height: 18px;
+    background: url("../images/short.png") no-repeat 0 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.con-le-wai{
+    width: 687px;
+    height: 186px;
+    border: 1px solid #d3d3d3;
+    position: relative;
+    margin: 20px 0 32px;
+}
+.con-le-new{
+    width: 685px;
+    height: 184px;
+    border: 1px solid #fff;
+    background: #f5f5f5;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.con-le-new>i{
+    width: 7px;
+    height: 13px;
+    background: url("../images/index.png") no-repeat -265px -77px;
+    position: absolute;
+    top: 72px;
+    left: 8px;
+}
+.con-le-new>i:hover{
+    background-position: -285px -77px;
+}
+.con-le-new .btn-rig{
+    background-position: -305px -77px;
+    position: absolute;
+    top: 72px;
+    left: 668px;
+}
+.con-le-new .btn-rig:hover{
+    background-position: -325px -77px;
+}
+.con-lef .con-le-new ul{
+    padding: 28px 0 0 27px;
+}
+.con-lef .con-le-new ul li{
+    float: left;
+    margin-right: 11px;
+    width: 118px;
+    position: relative;
+}
+
+.con-lef .con-le-new ul li img{
+    width: 100px;
+    height: 100px;
+}
+.con-lef .con-le-new ul li b{
+    width: 118px;
+    height: 100px;
+    background: url("../images/coverall.png") no-repeat 0 -570px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.con-lef .con-le-new ul li s{
+    width: 22px;
+    height: 22px;
+    background: url("../images/iconall.png")no-repeat -44px -24px;
+    position: absolute;
+    top: 73px;
+    right: 24px;
+    display: none;
+
+}
+.con-lef .con-le-new ul li:hover s{
+    display: block;
+}
+.con-lef .con-le-new ul li s:hover{
+    background-position: -44px -54px;
+}
+.con-lef .con-le-new ul li .text-t{
+    display: block;
+    margin: 9px 0 5px;
+}
+.con-lef .con-le-new ul li .text-t p{
+    color: #000;
+}
+.con-lef .con-le-new ul li .text-b p{
+    color: #666;
+}
+.con-lef .con-le-new ul li p:hover{
+    text-decoration: underline;
+}
+.con-lef .con-last-le{
+    float: left;
+    width: 228px;
+    height: 472px;
+    border: 1px solid #d2d2d2;
+    position: relative;
+    margin: 20px 0 0 -1px;
+}
+.con-lef .con-last-le .co-la-le{
+    width: 225px;
+    height: 470px;
+    background:#f4f4f4 ;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    float: left;
+}
+.con-lef .con-last-le .co-la-le .last-top{
+    width: 225px;
+    height: 118px;
+    position: relative;
+}
+.co-la-le .last-top a img{
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin: 18px 0 0 18px;
+}
+.co-la-le .last-top>img{
+    position: absolute;
+    top: 98px;
+    left: 11px;
+}
+.co-la-le .last-top a p{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 25px 0 0 108px;
+    color: #333;
+}
+.co-la-le .last-top a p:hover{
+    text-decoration: underline;
+}
+.co-la-le .last-top a i{
+    display:block;
+    width: 23px;
+    height: 22px;
+    background: url("../images/index.png") no-repeat -266px -205px;
+    margin:9px 0 0 108px ;
+}
+.co-la-le .last-top a i:hover{
+    background-position: -266px -235px;
+}
+.co-la-le .last-top a b{
+    width: 20px;
+    height: 19px;
+    background: url("../images/index.png") no-repeat -300px -207px;
+    position: absolute;
+    top: 52px;
+    left: 140px;
+}
+.co-la-le .last-top a b:hover{
+    background-position: -300px -237px ;
+}
+.co-la-le .las-lis li{
+    height: 32px;
+    width: 226px;
+    background: #e8e8e8;
+    position: relative;
+}
+.co-la-le .las-lis .bahui{
+    background-color: #f4f4f4;
+}
+.co-la-le .las-lis li span{
+    float: left;
+    width: 17px;
+    height: 32px;
+    font-size: 16px;
+    line-height: 32px;
+    color: #c41c1b;
+    margin-left: 27px;
+}
+.co-la-le .las-lis>li>a{
+    display: block;
+    float: left;
+    height: 32px;
+    color: #000;
+    line-height: 32px;
+    margin-left: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.co-la-le .las-lis li a:hover{
+    width:90px ;
+}
+
+.co-la-le .las-lis li a:hover{
+    text-decoration: underline;
+}
+.co-la-le .las-lis li:hover .las-hid{
+    display: block;
+}
+.co-la-le .las-lis li .las-hid{
+    display: none;
+    margin-top: 7px;
+    width: 92px;
+    height: 32px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/*.co-la-le .las-lis .las-hid>a{*/
+  /**/
+
+/*}*/
+.co-la-le .las-lis .las-hid i{
+    display: block;
+    float: left;
+    width: 17px;
+    height: 17px;
+    margin:0 10px 0 20px;
+    background: url("../images/index.png")no-repeat -267px -268px;
+
+}
+.co-la-le .las-lis .las-hid i:hover{
+    background-position:-267px -288px ;
+}
+.co-la-le .las-lis .las-hid b{
+    display: block;
+    float: left;
+    width: 13px;
+    height: 13px;
+    margin:3px 10px 0 0 ;
+    background: url("../images/icon.png") no-repeat 0 -700px;
+}
+.co-la-le .las-lis .las-hid b:hover{
+    background-position: -22px -700px;
+}
+.co-la-le .las-lis .las-hid s{
+    display: block;
+    float: left;
+    width: 17px;
+    height: 14px;
+    margin-top: 1px ;
+    background: url("../images/index.png") no-repeat -297px  -270px;
+}
+.co-la-le .las-lis .las-hid s:hover{
+    background: url("../images/index.png") no-repeat -297px -290px;
+}
+.las-lis li a:hover .las-hid{
+    display: block;
+}
+.co-la-le .las-lis .text-hui span{
+    color: #666;
+}
+
+.con-lef .co-la-le .las-lis>.look>.last>p{
+    display: block;
+    padding-left:142px;
+}
+.con-lef .co-la-le .las-lis>.look>.last:hover{
+    width: 300px;
+}
+.co-la-le .las-lis>.look .last p:hover{
+    text-decoration: underline;
+}
+.concent .con-rig{
+    float: right;
+    width: 248px;
+    height: 1505px;
+    border-right:1px solid #d3d3d3 ;
+    background:#fff;
+}
+.concent .con-rig .login-rig{
+    width: 248px;
+    height: 122px;
+    background: url("../images/index.png") no-repeat 0 0;
+}
+.concent .con-rig .login-rig>p{
+    color: #666;
+    line-height: 22px;
+    margin: 17px 24px 17px 22px;
+}
+.concent .con-rig .login-rig>a i {
+    display: block;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 74px;
+    background: url("../images/index.png") no-repeat 0 -195px;
+}
+.concent .con-rig .login-rig>a i:hover{
+    background-position:-110px -195px ;
+}
+.concent .con-rig .title-rig{
+    width: 210px;
+    height: 36px;
+    line-height: 36px;
+    border-bottom: 1px solid #ccc;
+    margin: 10px auto 7px;
+
+}
+.concent .con-rig .title-rig p{
+    float: left;
+    display: block;
+    color: #333;
+    font-weight: bold;
+
+}
+.concent .con-rig .title-rig a{
+    color: #666;
+    float: right;
+}
+.concent .con-rig .title-rig a:hover{
+    text-decoration: underline;
+}
+.concent .con-rig .list-rig li{
+    width: 210px;
+    height: 60px;
+    border: 1px solid #e9e9e9;
+    margin: 14px 0 0 20px;
+    background: #fafafa;
+}
+.concent .con-rig .list-rig li img{
+    float: left;
+    width: 62px;
+    height: 62px;
+}
+.concent .con-rig .list-rig li b{
+    display: block;
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 7px 0 12px 76px;
+
+}
+.concent .con-rig .list-rig li p{
+    display: block;
+    color: #666;
+    margin-left: 76px;
+}
+.concent .con-rig .list-rig li:hover{
+    background: #f4f4f4;
+}
+.concent .con-rig .join{
+    display: block;
+    color: #333;
+    width: 210px;
+    height: 30px;
+    line-height: 32px;
+    text-align:center;
+    background: #f2f2f2;
+    border: 1px solid #c4c4c4;
+    border-radius: 4px;
+    margin:14px 0 0 20px ;
+}
+.concent .con-rig .join:hover{
+    background: #fafafa;
+}
+.concent .con-rig .hotDj{
+    margin: 14px 0 0 20px;
+}
+.concent .con-rig .hotDj li{
+    height: 40px;
+    width: 210px;
+    margin-bottom: 10px;
+}
+.concent .con-rig .hotDj li .img-lis{
+
+    width: 40px;
+    height: 40px;
+}
+
+.concent .con-rig .hotDj li img{
+    display: block;
+    width: 40px;
+    height: 40px;
+    float: left;
+
+}
+
+.concent .con-rig .hotDj li .name{
+    padding: 4px 0 5px 50px;
+    display: block;
+    color: #000;
+}
+.concent .con-rig .hotDj li .name i{
+    display: inline-block;
+    width: 11px;
+    height: 12px;
+    background: url("../images/icon.png")no-repeat 0 0;
+}
+.concent .con-rig .hotDj li p{
+    color: #666;
+    padding-left: 50px;
+}
+.concent .con-rig .hotDj li .name:hover{
+    text-decoration: underline;
+}
+.footer{
+    border-top: 1px solid #d5d5d5;
+    height: 122px;
+    background: #f9f9f9;
+}
+.footer ul{
+    margin-top: 34px;
+}
+.footer ul li{
+    width: 301px;
+    height: 35px;
+    float: left;
+
+}
+.footer ul li i{
+    float: left;
+    width: 35px;
+    height: 35px;
+    display: block;
+    background: url("../images/sprite.png") no-repeat -405px -85px;
+}
+.footer ul li span{
+    color: #666;
+    margin: 0 0 6px 48px;
+    display: block;
+}
+.footer ul li p{
+    color: #999;
+    margin-left: 48px;
+    display: block;
+}
+.footer ul .list1{
+    width: 289px;
+    }
+.footer ul .list1 .list-two {
+    background-position:-405px -128px ;
+}
+.footer>p{
+    margin-bottom: 6px;
+}
+.footer>p>a{
+    color:#666;
+}
+.footer>p>i{
+    color: #9b9b9b;
+}
+.footer>p>a>i{
+    float: left;
+    display: block;
+    width: 19px;
+    height: 16px;
+    background: url("../images/icon.png") no-repeat 0 -39px;
+    margin: -15px 0 0  1095px;
+}
+.footer>p>.last-a{
+    margin-left: 19px;
+}
+.footer>p>a:hover{
+    text-decoration: underline;
+}
+.title .co-la-le .for-las{
+    display: block;
+    width: 226px;
+    height: 30px;
+    background: #e8e8e8;
+}
